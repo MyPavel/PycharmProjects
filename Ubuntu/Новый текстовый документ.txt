@@ -1,0 +1,2 @@
+cd pycharm/bin
+./pycharm.sh

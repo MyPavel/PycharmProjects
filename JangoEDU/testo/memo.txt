@@ -1,0 +1,16 @@
+venv\scripts\activate включение виртуального пространства
+python manage.py makemigrations - отправить новые модели в БД
+python manage.py migrate - миграция изменений - запуск проекта Джанго
+django-admin startproject 'name' - создание проекта Джанго
+python manage.py startapp 'name' - создание приложения в проекте
+python manage.py createsuperuser - создание суперпользователя
+
+# Работа в shell
+python manage.py shell - запуск Shell
+from 'project_name'.models import *
+
+
+
+admin adminadmin
+ctrl + pause - остановка сервера
+

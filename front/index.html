@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>
+    {% block title %}
+    {{ title }}
+    {% endblock title %}</title>
+</head>
+<body>
+    <nav>
+        <a href="main.html" title="Главная страница">Главная</a>
+        <a href="about.html" title="Информация обо мне">Обо мне</a>
+        <a href="feedback.html" title="Контактная информация">Обратная связь</a>
+    </nav>
+    {% block content %}
+    {{ content }}
+    {% endblock content %}
+</body>
+</html>

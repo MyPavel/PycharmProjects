@@ -1,0 +1,8 @@
+x = int(input('write some numbers:'))
+print('3' in str(x) and '7' in str(x))
+print(x)
+y = str(x)
+print(y)
+z = (int(y[0]))
+print(z)
+print(z % 2 == 0)
